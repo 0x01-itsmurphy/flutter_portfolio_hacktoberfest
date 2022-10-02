@@ -2,16 +2,22 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-class CustomListTile extends StatelessWidget {
+class CustomListTile extends StatefulWidget {
   final String contributorName;
   final String gitHubUsername;
   const CustomListTile(
       {super.key, required this.gitHubUsername, required this.contributorName});
+
+  @override
+  State<CustomListTile> createState() => _CustomListTileState();
+}
+
+class _CustomListTileState extends State<CustomListTile> {
+  bool isErrorOccured = false;
   @override
   Widget build(BuildContext context) {
     double width = MediaQuery.of(context).size.width;
     double height = MediaQuery.of(context).size.height;
-
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 15.0),
       width: width,
@@ -34,9 +40,16 @@ class CustomListTile extends StatelessWidget {
         children: [
           Row(
             children: [
+              CircleAvatar(
+                backgroundImage: NetworkImage(
+                    'https://avatars.githubusercontent.com/${widget.gitHubUsername}'),
+              ),
+              const SizedBox(
+                width: 10,
+              ),
               Expanded(
                 child: Text(
-                  contributorName,
+                  widget.contributorName,
                   style: const TextStyle(
                     fontSize: 22.0,
                     fontWeight: FontWeight.bold,
@@ -52,7 +65,8 @@ class CustomListTile extends StatelessWidget {
                   color: Color.fromARGB(255, 31, 16, 45),
                 ),
                 onPressed: () {
-                  launchUrl(Uri.parse('https://github.com/$gitHubUsername'));
+                  launchUrl(
+                      Uri.parse('https://github.com/${widget.gitHubUsername}'));
                 },
               )
             ],
@@ -63,7 +77,7 @@ class CustomListTile extends StatelessWidget {
               const Icon(FontAwesomeIcons.github),
               const SizedBox(width: 7),
               Text(
-                gitHubUsername,
+                widget.gitHubUsername,
                 style: const TextStyle(
                   fontSize: 16.0,
                   fontFamily: 'JetBrainsMono',
