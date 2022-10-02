@@ -6,15 +6,20 @@
 
 ### How to contribute to this project:
 
+<img src="https://user-images.githubusercontent.com/64863725/193447111-57305024-cde7-4acc-90b3-30f3e05501f6.png" height="400em" />  <img src="https://user-images.githubusercontent.com/64863725/193447122-8c21f611-9a06-46b8-8d0b-4b50351f743b.png" height="400em" />
+
+
+
 ### 1. Star and Fork this Repository
 ###### Star and fork this repository on GitHub by navigating at the top of this repository.
 
-GitHub repository URLs will reference both the username associated with the owner of the repository, as well as the repository name. For example, {acmbvp} is the owner of the Hacktoberfest repository, so the GitHub URL for this project is: https://github.com/acmbvp/Hacktoberfest/
+GitHub repository URLs will reference both the username associated with the owner of the repository, as well as the repository name. For example, {acmbvp} is the owner of the Hacktoberfest repository, so the GitHub URL for this project is: 
+https://github.com/0x01-itsmurphy/flutter_portfolio_hacktoberfest
 
+![starred-repo](https://user-images.githubusercontent.com/64863725/193443588-71204370-f523-4807-8450-c2f9cd58df9e.jpg)
 
-![screenshot-star](https://user-images.githubusercontent.com/37223446/47229499-79d87300-d3e5-11e8-9f2f-84e0d49e0439.png)
+![fork-repo](https://user-images.githubusercontent.com/64863725/193443607-199c82c9-718f-4abf-97c6-970621680612.jpg)
 
-![screenshot-fork](https://user-images.githubusercontent.com/37223446/47229495-77761900-d3e5-11e8-9de0-1891f5f7b245.png)
 
 When you’re on the main page of a repository, you’ll see a button to "Star" and “Fork” the repository on the upper right-hand side of the page, underneath your user icon.
 
@@ -25,23 +30,24 @@ To make your own local copy of the repository you would like to contribute to, l
 We’ll use the `git clone`  command along with the URL that points to your fork of the repository.
 
 This URL will be similar to the URL above, except now it will end with `.git.` In the cloud_haiku example above, the URL will look like this:
-https://github.com/your-username/Hacktoberfest.git
+https://github.com/your-username/flutter_portfolio_hacktoberfest.git
 
 You can alternatively copy the URL by using the green “Clone or download” button from your repository page that you just forked from the original repository page. Once you click the button, you’ll be able to copy the URL by clicking the binder button next to the URL:
 
-![screenshot 73](https://user-images.githubusercontent.com/37223446/47234826-b495d780-d3f4-11e8-9077-859ed9078677.png)
+![clone-repo](https://user-images.githubusercontent.com/64863725/193443917-7718b733-894e-48b2-81de-66281f16933d.png)
+
 
 Once we have the URL, we’re ready to clone the repository. To do this, we’ll combine the git clone command with the repository URL from the command line in a terminal window:
 
-`git clone https://github.com/your-username/Hacktoberfest.git`
+`git clone https://github.com/your-username/flutter_portfolio_hacktoberfest.git`
 
 ![screenshot 153](https://user-images.githubusercontent.com/37223446/47234624-0f7aff00-d3f4-11e8-81c4-9198e3e83860.png)
 
 ### 3. Create a New Branch
 
-To create your branch, from your terminal window, change your directory so that you are working in the directory of the repository. Be sure to use the actual name of the repository (i.e. Hacktoberfest) to switch into that directory.
+To create your branch, from your terminal window, change your directory so that you are working in the directory of the repository. Be sure to use the actual name of the repository (i.e. flutter_portfolio_hacktoberfest) to switch into that directory.
 
-#####    `cd Hacktoberfest`
+#####    `cd flutter_portfolio_hacktoberfest`
 
 Now, we’ll create our new branch with the git branch command. Make sure you name it descriptively so that others working on the project understand what you are working on.
 
@@ -63,7 +69,23 @@ At this point, you can now modify existing files or add new files to the project
 
 #### Make Changes Locally
 
-Once you have modified existing files or added new files to the project, you can add them to your local repository, which you can do with the git add command. Let’s add the -A flag to add all changes that we have made:
+
+>   Open repository in VS Code or Android Studio (I'm using VS Code)
+
+###### Open Terminal and Enter Command 
+```flutter pub get```
+###### Run the project
+```flutter run```
+
+> Go-To Folder `'lib > YourDetails'` and Open `'contributers_github_username.dart'` file 
+
+
+![github-username](https://user-images.githubusercontent.com/64863725/193446427-7a53990f-96e0-486a-88e8-9a18741e95f7.png)
+> Save the file and open `'contributors_name.dart'` file
+
+![github-contributer](https://user-images.githubusercontent.com/64863725/193446462-c116e454-86e1-4fbf-b51e-84816c80a534.png)
+
+Once you have modified existing files to the project, you can add them to your local repository, which you can do with the git add command. Let’s add the -A flag to add all changes that we have made:
 
 ##### ` git add -A ` or ` git add . `
 
@@ -95,4 +117,7 @@ At this point, you are ready to make a pull request to the original repository.
 
 Navigate to your forked repository, and press the “New pull request” button on your left-hand side of your Repo page.
 
-# Hurray!!!
+
+# Hurray!!! 
+Thanks for contributing :purple_heart:
+We thank you being part of our :sparkles: commUnity :sparkles: !
