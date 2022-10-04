@@ -1,11 +1,12 @@
 class ContributersName {
-  final contributorsName = [
+    final contributorsName = [
     'Kumar',
     'Your Name',
     'Chaozyx',
     'Prateek Krishna',
     'Mere Sai',
     'Mustafa Hawari',
-    'Pranjal Dubey'
+    'Andreas',
+    'Pranjal Dubey',
   ];
 }
