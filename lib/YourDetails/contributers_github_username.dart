@@ -6,6 +6,5 @@ class GitHubUserName {
     'PrateekKrishna',
     'mere-sai',
     'clevermustafa',
-    'ayushkharpuse',
   ];
 }

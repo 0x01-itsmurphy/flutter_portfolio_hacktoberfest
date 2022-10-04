@@ -5,7 +5,6 @@ class ContributersName {
     'Chaozyx',
     'Prateek Krishna',
     'Mere Sai',
-    'Mustafa Hawari',
-    'Ayush Kharpuse',    
+    'Mustafa Hawari',    
   ];
 }
