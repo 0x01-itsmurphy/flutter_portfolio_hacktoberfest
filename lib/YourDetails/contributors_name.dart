@@ -8,5 +8,6 @@ class ContributersName {
     'Mustafa Hawari',
     'Andreas',
     'Pranjal Dubey',
+    'Ayush Kharpuse',
   ];
 }
