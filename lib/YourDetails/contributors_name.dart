@@ -7,5 +7,6 @@ class ContributersName {
     'Mere Sai',
     'Mustafa Hawari',
     'Andreas',
+    'Pranjal Dubey',
   ];
 }
