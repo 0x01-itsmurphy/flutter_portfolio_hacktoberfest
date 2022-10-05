@@ -10,5 +10,6 @@ class GitHubUserName {
     'dubey2709',
     'ayushkharpuse',
     'devkishor8007',
+    'aihrar_shaikh'
   ];
 }
