@@ -9,5 +9,6 @@ class ContributersName {
     'Andreas',
     'Pranjal Dubey',
     'Ayush Kharpuse',
+    'Kishor KC'
   ];
 }
