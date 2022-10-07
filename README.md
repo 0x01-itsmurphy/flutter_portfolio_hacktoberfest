@@ -1,4 +1,4 @@
-# Hacktoberfest 2022
+# Hacktoberfest 2022 - EXCLUDED PROJECT DO NOT CONTRIBUTE
 ###### Hacktoberfest is a month-long global celebration of open source software run by **DigitalOcean** in partnership with **Docker** and **AppWrite**, with a strong focus on encouraging contributions to open source projects. 
 * Hacktoberfest is open to everyone.
 * Four quality pull requests must be submitted to public GitHub and/or GitLab repositories.
