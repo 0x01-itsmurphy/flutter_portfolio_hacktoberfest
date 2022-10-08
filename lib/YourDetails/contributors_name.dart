@@ -1,5 +1,5 @@
 class ContributersName {
-    final contributorsName = [
+  final contributorsName = [
     'Kumar',
     'Your Name',
     'Chaozyx',
@@ -10,6 +10,7 @@ class ContributersName {
     'Pranjal Dubey',
     'Ayush Kharpuse',
     'Kishor KC',
-    'Aihrar Shaikh'
+    'Aihrar Shaikh',
+    'Bikash Yadav',
   ];
 }
