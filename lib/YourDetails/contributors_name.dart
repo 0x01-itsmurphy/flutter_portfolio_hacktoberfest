@@ -11,5 +11,6 @@ class ContributersName {
     'Ayush Kharpuse',
     'Kishor KC',
     'Aihrar Shaikh'
+    'Danushan R'
   ];
 }
