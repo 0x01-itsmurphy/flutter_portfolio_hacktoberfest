@@ -1,7 +1,7 @@
 class ContributersName {
     final contributorsName = [
     'Kumar',
-    'Your Name',
+    'Kunal Pitale',
     'Chaozyx',
     'Prateek Krishna',
     'Mere Sai',
